@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.head {
+  position: relative;
+  z-index: 1;
+  .bg{
+    width: 100%;
+  }
+  .userImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -0.6rem;
+    margin-top: -0.6rem;
+    z-index: 2;
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+}
+

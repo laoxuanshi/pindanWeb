@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+.am-card {
+  .am-whitespace {
+	background-color: #F7F7F7;
+  }
+  .am-card-header {
+	img {
+	  width: 1.2rem;
+      height: 1.2rem;
+	}
+    .am-card-header-content {
+      div {
+        font-size: 0.3rem;
+        line-height: 0.45rem;
+        margin-left: 0.15rem;
+        .sex {
+          width: 0.35rem;
+          height: 0.35rem;
+          margin-left: 0.1rem;
+          margin-top: -0.05rem;
+        }
+      }
+      .unvi {
+        visibility: hidden;
+      }
+    }
+
+    .am-card-header-extra {
+      div{
+        font-size: 0.3rem;
+        line-height: 0.45rem;
+        color: #000;
+      }
+    }
+  }
+
+  .am-card-body {
+    padding: 0.3rem;
+    line-height: 0.45rem;
+    min-height: 0;
+    .ce {
+      text-align: center;
+      .content-img {
+        display: inline-block;
+        width: 4rem;
+        height:  auto;
+      }
+    }
+
+    .parent {
+      display: flex;
+      margin: -0.2rem;
+      text-align: center;
+      .child{
+        flex:1;
+        img{
+          width: 0.32rem;
+          height: 0.32rem;
+          margin-right: 0.1rem;
+          margin-top: -0.05rem;
+        }
+      }
+    }
+  }
+}
+
